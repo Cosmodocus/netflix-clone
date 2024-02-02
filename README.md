@@ -48,7 +48,7 @@ This project aims to replicate the Netflix interface and functionality, providin
 
 ## Resources Used
 
-- YouTube Tutorial (Primary)
+- YouTube Tutorial 
 - Google
 - Stack Overflow
 - ChatGPT
