@@ -1,22 +1,8 @@
-#Methods used and learnt so far (01/31/24):
-- state management with useState
-- useEffect
-- react-icons
-- axios for extracting TMDB API 
-- list rendering
-- conditional rendering
-- react-router
-- tailwind-scroll
-- props
-- Netflix's styling and design techniques
+# React + Vite
 
-#Notes (02/01/24):
-- currently the project is finished(at least implementing most of react/tailwind/firebase)
-- I am only struggling a bit with configuring .env files, to prevent API key security issues. Will upload everything once that is taken care of.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-#Tech Stack Involved:
-- React JS
-- Tailwind CSS
-- Firebase
-- Axios
-- TMDB API
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

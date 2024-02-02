@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Movie from './Movie';
 import {MdChevronLeft, MdChevronRight} from 'react-icons/md'
 
-const Row = ({title, fetchURL, rowId}) => {
+const Row = ({title, name, fetchURL, rowId}) => {
 
   const [movies, setMovies] = useState([])
 
@@ -26,7 +26,7 @@ const Row = ({title, fetchURL, rowId}) => {
 
   return (
     <>
-      <h2 className='text-white font-bold md:text-xl p-4'>{title}</h2>
+      <h2 className='text-white font-bold md:text-xl p-4'>{title || name}</h2>
       <div className='relative flex items-center group'>
           <MdChevronLeft 
           onClick={slideLeft}
