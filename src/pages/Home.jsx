@@ -3,7 +3,7 @@ import Main from '../components/Main'
 import Row from '../components/Row'
 
 const Home = () => {
-    const apiKey = `1a609b1556bb9c31b859f2b28f81bbc9`;
+    const apiKey = 'TMDB_API_KEY_HERE';
     const requestPopular = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
     const requestTopRated = `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`;
     const requestTrending = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=2`;
