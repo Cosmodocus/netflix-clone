@@ -3,12 +3,9 @@ import axios from 'axios';
 
 const Main = () => {
 
-    const apiKey = '1a609b1556bb9c31b859f2b28f81bbc9';
-    const requestPopular = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
-    const requestTopRated = `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`;
-    const requestTrending = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=2`;
-    const requestHorror = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=horror&page=1&include_adult=false`;
-    const requestUpcoming = `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`;
+    const apiKey = 'TMDB_API_KEY_HERE';
+    const requestPopular = `TMDB_REQUEST_POPULAR_API_URL_HERE`;
+   
       
 
     const[movies, setMovies] = useState([]);  
